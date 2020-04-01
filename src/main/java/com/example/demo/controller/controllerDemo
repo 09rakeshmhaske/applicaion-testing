@@ -1,0 +1,14 @@
+
+package com.example.demo.controller;
+
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class controllerDemo {
+
+    @RequestMapping("/displayMessage")
+    public String getDisplayMessage() {
+        return "<center><h1>Welcome SpringBoot-Docker Demo</h1></center>";
+    }
+
+}
